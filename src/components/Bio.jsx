@@ -4,8 +4,9 @@ const Bio = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col justify-center items-center text-center bg-gray-100 dark:bg-gray-900 px-4"
-    >
+      className="min-h-screen flex flex-col justify-center items-center text-center 
+bg-gray-100 dark:bg-gradient-to-b dark:from-gray-900 dark:to-gray-800 px-4 transition-colors duration-300"
+>
       <h1 className="text-4xl md:text-6xl font-bold text-blue-600 dark:text-blue-400 mb-4">
         Robin Chalhoub
       </h1>
