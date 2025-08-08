@@ -15,7 +15,7 @@ function Footer() {
           <FaEnvelope />
         </a>
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/Robin5890"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub Profile"
@@ -24,7 +24,7 @@ function Footer() {
           <FaGithub />
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/robin-chalhoub-625969320/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn Profile"
