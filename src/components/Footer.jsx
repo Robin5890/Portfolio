@@ -8,7 +8,7 @@ function Footer() {
       </p>
       <div className="flex justify-center space-x-6 mb-4 text-2xl text-gray-300 dark:text-gray-400">
         <a
-          href="mailto:robinchalhoub@hotmail.com"
+          href="mailto:robinchalhoub16@gmail.com"
           aria-label="Send Email"
           className="hover:text-white dark:hover:text-white transition-colors"
         >
