@@ -16,6 +16,11 @@ const projects = [
     name: "Federated DBMS for Unified Querying",
     description: "Integrated MySQL and MSSQL databases under a single PostgreSQL mediator using Foreign Data Wrappers(FDW). Enabled seamless querying across distributed sources with a global schema.",
     tech: ["MySQL", "MSSQL", "PostgreSQL"]
+  },
+  {
+    name: "Movies Explorer App",
+    description: "Built a responsive web application to search and explore movies, view details, and manage favorites using data from the OMDb API. Implemented component-based architecture with React, styled with Tailwind, and used React Router for navigation.\n• Handled REST APIs in React\n• Applied component based architecture and props\n• Implemented responsive design and interactive UI",
+    tech: ["React", "Tailwind CSS", "React Router", "REST API"]
   }
 ];
 
@@ -37,7 +42,7 @@ function Projects() {
           >
             <div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">{name}</h3>
-              <p className="text-gray-700 dark:text-gray-300 mb-4">{description}</p>
+              <p className="text-gray-700 dark:text-gray-300 mb-4 whitespace-pre-line">{description}</p>
 
               <div className="flex flex-wrap gap-2 mb-4">
                 {tech.map((t) => (
