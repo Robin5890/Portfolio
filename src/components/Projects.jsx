@@ -1,16 +1,16 @@
 import React from 'react'
 
-// components/Projects.jsx
+
 const projects = [
   {
-    name: "Food Delivery App",
-    description: "A full-stack food delivery platform with real-time order tracking and payment integration.",
-    tech: ["Javascript", "PHP", "PHPMyAdmin"] 
+    name: "Movies Explorer App",
+    description: "Built a responsive web application to search and explore movies, view details, and manage favorites using data from the OMDb API. Implemented component-based architecture with React, styled with Tailwind, and used React Router for navigation.",
+    tech: ["React", "Tailwind CSS", "React Router", "REST API"]
   },
   {
-    name: "Library Management System",
-    description: "JavaFX desktop app for managing books, users, and lending operations.",
-    tech: ["Java", "JavaFX", "MySQL"],
+    name: "Food Delivery App",
+    description: "Created a full-stack food delivery platform simulating a real-world restaurant ordering system, with role-based access for users, restaurants, and admins. Frontend built with JavaScript,backend powered by PHP and MySQL, featuring a responsive and intuitive interface for seamless ordering.",
+    tech: ["Javascript", "PHP", "PHPMyAdmin"] 
   },
   {
     name: "Federated DBMS for Unified Querying",
@@ -18,9 +18,9 @@ const projects = [
     tech: ["MySQL", "MSSQL", "PostgreSQL"]
   },
   {
-    name: "Movies Explorer App",
-    description: "Built a responsive web application to search and explore movies, view details, and manage favorites using data from the OMDb API. Implemented component-based architecture with React, styled with Tailwind, and used React Router for navigation.",
-    tech: ["React", "Tailwind CSS", "React Router", "REST API"]
+    name: "Library Management System",
+    description: "JavaFX desktop app for managing books, users, and lending operations.",
+    tech: ["Java", "JavaFX", "MySQL"],
   }
 ];
 
